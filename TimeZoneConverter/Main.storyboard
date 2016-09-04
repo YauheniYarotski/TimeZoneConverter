@@ -15,7 +15,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
                         <sections>
-                            <tableViewSection headerTitle="Select time zone and time:" id="ogQ-Y6-I1U">
+                            <tableViewSection headerTitle="Select time zone and time" id="ogQ-Y6-I1U">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="wIS-rQ-k22">
                                         <rect key="frame" x="0.0" y="50" width="600" height="44"/>

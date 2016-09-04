@@ -1,4 +1,7 @@
 PODS:
+  - Crashlytics (3.8.0):
+    - Fabric (~> 1.6.3)
+  - Fabric (1.6.8)
   - Firebase (3.5.2):
     - Firebase/Core (= 3.5.2)
   - Firebase/Analytics (3.5.2):
@@ -18,9 +21,13 @@ PODS:
     - GoogleSymbolUtilities (~> 1.0)
 
 DEPENDENCIES:
+  - Crashlytics
+  - Fabric
   - Firebase
 
 SPEC CHECKSUMS:
+  Crashlytics: 8601d9c74a4c4d28f3e7f408bf4c0e490c70e8b4
+  Fabric: 5755268d0171435ab167e3d0878a28a777deaf10
   Firebase: 94e63112efcad75226c0356a8f3032397b8547c9
   FirebaseAnalytics: d968d4d5f6aeb795cd64144337bcd233e530efc6
   FirebaseInstanceID: ba1e640935235e5fac39dfa816fe7660e72e1a8a
@@ -28,6 +35,6 @@ SPEC CHECKSUMS:
   GoogleSymbolUtilities: 33117db1b5f290c6fbf259585e4885b4c84b98d7
   GoogleUtilities: 56c5ac05b7aa5dc417a1bb85221a9516e04d7032
 
-PODFILE CHECKSUM: dd22d4c18dd09ae18a7247db6a3c4c149406a69f
+PODFILE CHECKSUM: 9195a29f64bcc65cf396b787f545b2fe34346105
 
 COCOAPODS: 1.0.0
