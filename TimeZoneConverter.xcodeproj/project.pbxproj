@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF6D539CC3FB0A12F2703A07 /* Pods_TimeZoneConverter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3815657EB6277CC01D32DEB /* Pods_TimeZoneConverter.framework */; };
 		F723BA181D7CA3E800613D8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F723BA171D7CA3E800613D8D /* AppDelegate.swift */; };
-		F723BA1A1D7CA3E800613D8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F723BA191D7CA3E800613D8D /* ViewController.swift */; };
-		F723BA1D1D7CA3E800613D8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F723BA1B1D7CA3E800613D8D /* Main.storyboard */; };
 		F723BA1F1D7CA3E800613D8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F723BA1E1D7CA3E800613D8D /* Assets.xcassets */; };
-		F723BA221D7CA3E800613D8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F723BA201D7CA3E800613D8D /* LaunchScreen.storyboard */; };
+		F723BA2C1D7CA42000613D8D /* NSTimeZone+TimeZoneConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F723BA291D7CA42000613D8D /* NSTimeZone+TimeZoneConverter.swift */; };
+		F723BA2D1D7CA42000613D8D /* NSString+TZStringDateFormater.m in Sources */ = {isa = PBXBuildFile; fileRef = F723BA2B1D7CA42000613D8D /* NSString+TZStringDateFormater.m */; };
+		F723BA2F1D7CA42900613D8D /* TimeZoneConverterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F723BA2E1D7CA42900613D8D /* TimeZoneConverterController.swift */; };
+		F723BA311D7CA45E00613D8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F723BA301D7CA45E00613D8D /* Main.storyboard */; };
+		F723BA331D7CA46400613D8D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F723BA321D7CA46400613D8D /* LaunchScreen.xib */; };
+		F723BA371D7CA4F900613D8D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F723BA361D7CA4F900613D8D /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		230ECC0537766C236E6C97BA /* Pods-TimeZoneConverter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeZoneConverter.release.xcconfig"; path = "Pods/Target Support Files/Pods-TimeZoneConverter/Pods-TimeZoneConverter.release.xcconfig"; sourceTree = "<group>"; };
+		37720B7B88DF23E1EF838E65 /* Pods-TimeZoneConverter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeZoneConverter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TimeZoneConverter/Pods-TimeZoneConverter.debug.xcconfig"; sourceTree = "<group>"; };
+		E3815657EB6277CC01D32DEB /* Pods_TimeZoneConverter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimeZoneConverter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F723BA141D7CA3E800613D8D /* TimeZoneConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeZoneConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F723BA171D7CA3E800613D8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F723BA191D7CA3E800613D8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F723BA1C1D7CA3E800613D8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F723BA1E1D7CA3E800613D8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F723BA211D7CA3E800613D8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F723BA231D7CA3E800613D8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F723BA291D7CA42000613D8D /* NSTimeZone+TimeZoneConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSTimeZone+TimeZoneConverter.swift"; sourceTree = "<group>"; };
+		F723BA2A1D7CA42000613D8D /* NSString+TZStringDateFormater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TZStringDateFormater.h"; sourceTree = "<group>"; };
+		F723BA2B1D7CA42000613D8D /* NSString+TZStringDateFormater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TZStringDateFormater.m"; sourceTree = "<group>"; };
+		F723BA2E1D7CA42900613D8D /* TimeZoneConverterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeZoneConverterController.swift; sourceTree = "<group>"; };
+		F723BA301D7CA45E00613D8D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F723BA321D7CA46400613D8D /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		F723BA361D7CA4F900613D8D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F723BA3B1D7CA5A000613D8D /* TimeZoneConverter-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TimeZoneConverter-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF6D539CC3FB0A12F2703A07 /* Pods_TimeZoneConverter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9247D67D505F693C7FD7503B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3815657EB6277CC01D32DEB /* Pods_TimeZoneConverter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F723BA0B1D7CA3E800613D8D = {
 			isa = PBXGroup;
 			children = (
 				F723BA161D7CA3E800613D8D /* TimeZoneConverter */,
 				F723BA151D7CA3E800613D8D /* Products */,
+				F95EC084D6ECAF08125BE21F /* Pods */,
+				9247D67D505F693C7FD7503B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +77,36 @@
 		F723BA161D7CA3E800613D8D /* TimeZoneConverter */ = {
 			isa = PBXGroup;
 			children = (
+				F723BA341D7CA46D00613D8D /* Extentions */,
+				F723BA2E1D7CA42900613D8D /* TimeZoneConverterController.swift */,
 				F723BA171D7CA3E800613D8D /* AppDelegate.swift */,
-				F723BA191D7CA3E800613D8D /* ViewController.swift */,
-				F723BA1B1D7CA3E800613D8D /* Main.storyboard */,
+				F723BA301D7CA45E00613D8D /* Main.storyboard */,
+				F723BA321D7CA46400613D8D /* LaunchScreen.xib */,
 				F723BA1E1D7CA3E800613D8D /* Assets.xcassets */,
-				F723BA201D7CA3E800613D8D /* LaunchScreen.storyboard */,
 				F723BA231D7CA3E800613D8D /* Info.plist */,
+				F723BA361D7CA4F900613D8D /* GoogleService-Info.plist */,
+				F723BA3B1D7CA5A000613D8D /* TimeZoneConverter-Bridging-Header.h */,
 			);
 			path = TimeZoneConverter;
+			sourceTree = "<group>";
+		};
+		F723BA341D7CA46D00613D8D /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				F723BA291D7CA42000613D8D /* NSTimeZone+TimeZoneConverter.swift */,
+				F723BA2A1D7CA42000613D8D /* NSString+TZStringDateFormater.h */,
+				F723BA2B1D7CA42000613D8D /* NSString+TZStringDateFormater.m */,
+			);
+			name = Extentions;
+			sourceTree = "<group>";
+		};
+		F95EC084D6ECAF08125BE21F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37720B7B88DF23E1EF838E65 /* Pods-TimeZoneConverter.debug.xcconfig */,
+				230ECC0537766C236E6C97BA /* Pods-TimeZoneConverter.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +116,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F723BA261D7CA3E800613D8D /* Build configuration list for PBXNativeTarget "TimeZoneConverter" */;
 			buildPhases = (
+				A3FA333B178C5FED34DE91CF /* 📦 Check Pods Manifest.lock */,
 				F723BA101D7CA3E800613D8D /* Sources */,
 				F723BA111D7CA3E800613D8D /* Frameworks */,
 				F723BA121D7CA3E800613D8D /* Resources */,
+				4626C8149C70BBC39882334B /* 📦 Embed Pods Frameworks */,
+				AADFD3EC7F59C720B06468DE /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,44 +170,76 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F723BA221D7CA3E800613D8D /* LaunchScreen.storyboard in Resources */,
+				F723BA331D7CA46400613D8D /* LaunchScreen.xib in Resources */,
+				F723BA311D7CA45E00613D8D /* Main.storyboard in Resources */,
+				F723BA371D7CA4F900613D8D /* GoogleService-Info.plist in Resources */,
 				F723BA1F1D7CA3E800613D8D /* Assets.xcassets in Resources */,
-				F723BA1D1D7CA3E800613D8D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4626C8149C70BBC39882334B /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TimeZoneConverter/Pods-TimeZoneConverter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3FA333B178C5FED34DE91CF /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AADFD3EC7F59C720B06468DE /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TimeZoneConverter/Pods-TimeZoneConverter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F723BA101D7CA3E800613D8D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F723BA1A1D7CA3E800613D8D /* ViewController.swift in Sources */,
+				F723BA2F1D7CA42900613D8D /* TimeZoneConverterController.swift in Sources */,
+				F723BA2D1D7CA42000613D8D /* NSString+TZStringDateFormater.m in Sources */,
+				F723BA2C1D7CA42000613D8D /* NSTimeZone+TimeZoneConverter.swift in Sources */,
 				F723BA181D7CA3E800613D8D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		F723BA1B1D7CA3E800613D8D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F723BA1C1D7CA3E800613D8D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F723BA201D7CA3E800613D8D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F723BA211D7CA3E800613D8D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F723BA241D7CA3E800613D8D /* Debug */ = {
@@ -249,23 +329,29 @@
 		};
 		F723BA271D7CA3E800613D8D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37720B7B88DF23E1EF838E65 /* Pods-TimeZoneConverter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TimeZoneConverter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = by.olion.TimeZoneConverter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TimeZoneConverter/TimeZoneConverter-Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		F723BA281D7CA3E800613D8D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 230ECC0537766C236E6C97BA /* Pods-TimeZoneConverter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TimeZoneConverter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = by.olion.TimeZoneConverter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TimeZoneConverter/TimeZoneConverter-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -288,6 +374,7 @@
 				F723BA281D7CA3E800613D8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
