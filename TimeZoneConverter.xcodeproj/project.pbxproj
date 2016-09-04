@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F723BA181D7CA3E800613D8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F723BA171D7CA3E800613D8D /* AppDelegate.swift */; };
+		F723BA1A1D7CA3E800613D8D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F723BA191D7CA3E800613D8D /* ViewController.swift */; };
+		F723BA1D1D7CA3E800613D8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F723BA1B1D7CA3E800613D8D /* Main.storyboard */; };
+		F723BA1F1D7CA3E800613D8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F723BA1E1D7CA3E800613D8D /* Assets.xcassets */; };
+		F723BA221D7CA3E800613D8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F723BA201D7CA3E800613D8D /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F723BA141D7CA3E800613D8D /* TimeZoneConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeZoneConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F723BA171D7CA3E800613D8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F723BA191D7CA3E800613D8D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F723BA1C1D7CA3E800613D8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F723BA1E1D7CA3E800613D8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F723BA211D7CA3E800613D8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F723BA231D7CA3E800613D8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F723BA111D7CA3E800613D8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F723BA0B1D7CA3E800613D8D = {
+			isa = PBXGroup;
+			children = (
+				F723BA161D7CA3E800613D8D /* TimeZoneConverter */,
+				F723BA151D7CA3E800613D8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F723BA151D7CA3E800613D8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F723BA141D7CA3E800613D8D /* TimeZoneConverter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F723BA161D7CA3E800613D8D /* TimeZoneConverter */ = {
+			isa = PBXGroup;
+			children = (
+				F723BA171D7CA3E800613D8D /* AppDelegate.swift */,
+				F723BA191D7CA3E800613D8D /* ViewController.swift */,
+				F723BA1B1D7CA3E800613D8D /* Main.storyboard */,
+				F723BA1E1D7CA3E800613D8D /* Assets.xcassets */,
+				F723BA201D7CA3E800613D8D /* LaunchScreen.storyboard */,
+				F723BA231D7CA3E800613D8D /* Info.plist */,
+			);
+			path = TimeZoneConverter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F723BA131D7CA3E800613D8D /* TimeZoneConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F723BA261D7CA3E800613D8D /* Build configuration list for PBXNativeTarget "TimeZoneConverter" */;
+			buildPhases = (
+				F723BA101D7CA3E800613D8D /* Sources */,
+				F723BA111D7CA3E800613D8D /* Frameworks */,
+				F723BA121D7CA3E800613D8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeZoneConverter;
+			productName = TimeZoneConverter;
+			productReference = F723BA141D7CA3E800613D8D /* TimeZoneConverter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F723BA0C1D7CA3E800613D8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Yauheni Yarotski";
+				TargetAttributes = {
+					F723BA131D7CA3E800613D8D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F723BA0F1D7CA3E800613D8D /* Build configuration list for PBXProject "TimeZoneConverter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F723BA0B1D7CA3E800613D8D;
+			productRefGroup = F723BA151D7CA3E800613D8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F723BA131D7CA3E800613D8D /* TimeZoneConverter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F723BA121D7CA3E800613D8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F723BA221D7CA3E800613D8D /* LaunchScreen.storyboard in Resources */,
+				F723BA1F1D7CA3E800613D8D /* Assets.xcassets in Resources */,
+				F723BA1D1D7CA3E800613D8D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F723BA101D7CA3E800613D8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F723BA1A1D7CA3E800613D8D /* ViewController.swift in Sources */,
+				F723BA181D7CA3E800613D8D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F723BA1B1D7CA3E800613D8D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F723BA1C1D7CA3E800613D8D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F723BA201D7CA3E800613D8D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F723BA211D7CA3E800613D8D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F723BA241D7CA3E800613D8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F723BA251D7CA3E800613D8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F723BA271D7CA3E800613D8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TimeZoneConverter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = by.olion.TimeZoneConverter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F723BA281D7CA3E800613D8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TimeZoneConverter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = by.olion.TimeZoneConverter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F723BA0F1D7CA3E800613D8D /* Build configuration list for PBXProject "TimeZoneConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F723BA241D7CA3E800613D8D /* Debug */,
+				F723BA251D7CA3E800613D8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F723BA261D7CA3E800613D8D /* Build configuration list for PBXNativeTarget "TimeZoneConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F723BA271D7CA3E800613D8D /* Debug */,
+				F723BA281D7CA3E800613D8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F723BA0C1D7CA3E800613D8D /* Project object */;
+}
